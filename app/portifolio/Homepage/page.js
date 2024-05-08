@@ -46,10 +46,6 @@ const Page = () => {
           <button onClick={() => scrollTo('home')} className="mx-2 text-gray-800 hover:text-black active:text-orange-500">Home</button>
           <button onClick={() => scrollTo('about')} className="mx-2 text-gray-800 hover:text-black active:text-orange-500">About</button>
           <button onClick={() => scrollTo('contact')} className="mx-2 text-gray-800 hover:text-black active:text-orange-500">Contact</button>
-          {/* I haven't made my resume on document file when will do then will upload! */}
-          <a href="/resume.pdf" className="mx-2 text-gray-800 hover:text-black active:text-orange-500" download="Not-uploading-personal-reasons.pdf">
-          Resume
-          </a>
         </div>
       </nav>
       <div className="pt-16">

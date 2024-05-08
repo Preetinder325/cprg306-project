@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import { useUserAuth } from './_utils/auth-context';
-import { FaGithub, FaShoppingCart, FaSignOutAlt } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 function LandingPage() {
     const { user, gitHubSignIn, firebaseSignOut } = useUserAuth();
 
